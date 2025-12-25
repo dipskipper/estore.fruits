@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Domains for Sale | Launch Your Business Today</title>
+    <meta name="description" content="Acquire premium domain names for your AI and e-commerce business. Professional domains that build trust and drive success.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #8b5cf6;
+            --primary-light: #a78bfa;
+            --primary-dark: #7c3aed;
+            --secondary: #06b6d4;
+            --accent: #f59e0b;
+            --success: #10b981;
+            --dark: #0a0a1a;
+            --dark-lighter: #12122a;
+            --dark-card: #1a1a35;
+            --gray: #6b7280;
+            --gray-light: #9ca3af;
+            --white: #ffffff;
+            --gradient: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            --gradient-gold: linear-gradient(135deg, #f59e0b 0%, #fbbf24 50%, #f59e0b 100%);
+        }
+
+        html {
+            scroll-behavior: smooth;
+            font-size: 18px; /* Larger base font for readability */
+        }
+
+        body {
+            font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--dark);
+            color: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* Starfield Background */
+        .starfield {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: radial-gradient(ellipse at bottom, #1a1a40 0%, #0a0a1a 100%);
+            overflow: hidden;
+        }
+
+        .stars {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .stars::before,
+        .stars::after {
+            content: '';
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background: white;
+            border-radius: 50%;
+            box-shadow: 
+                100px 50px 0 0 rgba(255,255,255,0.8),
+                200px 150px 0 0 rgba(255,255,255,0.6),
+                300px 80px 0 0 rgba(255,255,255,0.9),
+                400px 200px 0 0 rgba(255,255,255,0.5),
+                500px 100px 0 0 rgba(255,255,255,0.7),
+                600px 250px 0 0 rgba(255,255,255,0.8),
+                700px 50px 0 0 rgba(255,255,255,0.6),
+                800px 180px 0 0 rgba(255,255,255,0.9),
+                900px 120px 0 0 rgba(255,255,255,0.5),
+                1000px 220px 0 0 rgba(255,255,255,0.7),
+                150px 300px 0 0 rgba(255,255,255,0.8),
+                250px 400px 0 0 rgba(255,255,255,0.6),
+                350px 350px 0 0 rgba(255,255,255,0.9),
+                450px 450px 0 0 rgba(255,255,255,0.5),
+                550px 380px 0 0 rgba(255,255,255,0.7),
+                650px 500px 0 0 rgba(255,255,255,0.8),
+                750px 420px 0 0 rgba(255,255,255,0.6),
+                850px 480px 0 0 rgba(255,255,255,0.9),
+                950px 350px 0 0 rgba(255,255,255,0.5),
+                1050px 400px 0 0 rgba(255,255,255,0.7),
+                50px 550px 0 0 rgba(255,255,255,0.8),
+                180px 620px 0 0 rgba(255,255,255,0.6),
+                320px 580px 0 0 rgba(255,255,255,0.9),
+                480px 650px 0 0 rgba(255,255,255,0.5),
+                620px 600px 0 0 rgba(255,255,255,0.7);
+            animation: twinkle 4s ease-in-out infinite;
+        }
+
+        .stars::after {
+            transform: translateX(100px) translateY(50px);
+            animation-delay: 2s;
+        }
+
+        @keyframes twinkle {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        .nebula {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(139, 92, 246, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(6, 182, 212, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 50% 50%, rgba(245, 158, 11, 0.08) 0%, transparent 50%);
+            animation: nebula-drift 30s ease-in-out infinite;
+        }
+
+        @keyframes nebula-drift {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            50% { transform: scale(1.1) rotate(5deg); }
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding: 1.2rem 2rem;
+            z-index: 1000;
+            background: rgba(10, 10, 26, 0.9);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo-icon {
+            font-size: 2rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--gray-light);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+        }
+
+        .nav-links a:hover {
+            color: var(--white);
+            background: rgba(139, 92, 246, 0.2);
+        }
+
+        .nav-cta {
+            background: var(--gradient) !important;
+            color: var(--white) !important;
+            padding: 0.8rem 1.8rem !important;
+            border-radius: 50px !important;
+            font-weight: 600 !important;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10rem 2rem 6rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-content {
+            max-width: 1000px;
+            animation: fadeInUp 1s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: rgba(139, 92, 246, 0.15);
+            border: 2px solid rgba(139, 92, 246, 0.4);
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            color: var(--primary-light);
+            margin-bottom: 2rem;
+        }
+
+        .badge-star {
+            font-size: 1.3rem;
+            animation: spin 10s linear infinite;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .hero h1 {
+            font-size: clamp(2.8rem, 6vw, 4.5rem);
+            font-weight: 700;
+            line-height: 1.15;
+            margin-bottom: 1.5rem;
+            letter-spacing: -1px;
+        }
+
+        .hero h1 .highlight {
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero h1 .gold {
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero-subtitle {
+            font-size: 1.4rem;
+            color: var(--gray-light);
+            max-width: 700px;
+            margin: 0 auto 3rem;
+            line-height: 1.8;
+        }
+
+        .trust-badges {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 4rem;
+            padding-top: 3rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            flex-wrap: wrap;
+        }
+
+        .trust-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: var(--gray-light);
+            font-size: 1.1rem;
+        }
+
+        .trust-icon {
+            font-size: 1.8rem;
+        }
+
+        /* Domains Section */
+        .domains-section {
+            padding: 8rem 2rem;
+            position: relative;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 5rem;
+        }
+
+        .section-tag {
+            display: inline-block;
+            color: var(--secondary);
+            font-weight: 600;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 1rem;
+            padding: 0.5rem 1.5rem;
+            background: rgba(6, 182, 212, 0.1);
+            border-radius: 50px;
+            border: 1px solid rgba(6, 182, 212, 0.3);
+        }
+
+        .section-header h2 {
+            font-size: clamp(2.2rem, 4vw, 3.2rem);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            letter-spacing: -1px;
+        }
+
+        .section-header p {
+            color: var(--gray-light);
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .domains-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 2.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .domain-card {
+            background: var(--dark-card);
+            border: 2px solid rgba(139, 92, 246, 0.2);
+            border-radius: 24px;
+            padding: 2.5rem;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .domain-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--gradient);
+        }
+
+        .domain-card:hover {
+            transform: translateY(-12px);
+            border-color: var(--primary);
+            box-shadow: 
+                0 30px 60px rgba(139, 92, 246, 0.2),
+                0 0 40px rgba(139, 92, 246, 0.1);
+        }
+
+        .domain-card.featured {
+            border-color: var(--accent);
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, var(--dark-card) 100%);
+        }
+
+        .domain-card.featured::before {
+            background: var(--gradient-gold);
+        }
+
+        .featured-badge {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: var(--gradient-gold);
+            color: var(--dark);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+
+        .domain-icon {
+            width: 70px;
+            height: 70px;
+            background: var(--gradient);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .domain-name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--white);
+            word-break: break-all;
+        }
+
+        .domain-extension {
+            color: var(--secondary);
+        }
+
+        .domain-tagline {
+            color: var(--gray-light);
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .domain-benefits {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .domain-benefits li {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 0;
+            color: var(--gray-light);
+            font-size: 1.05rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .domain-benefits li:last-child {
+            border-bottom: none;
+        }
+
+        .benefit-check {
+            color: var(--success);
+            font-size: 1.3rem;
+        }
+
+        .domain-cta {
+            display: block;
+            width: 100%;
+            padding: 1.2rem 2rem;
+            background: var(--gradient);
+            color: var(--white);
+            text-decoration: none;
+            text-align: center;
+            border-radius: 16px;
+            font-weight: 700;
+            font-size: 1.15rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .domain-cta:hover {
+            transform: scale(1.03);
+            box-shadow: 0 15px 40px rgba(139, 92, 246, 0.4);
+        }
+
+        .domain-card.featured .domain-cta {
+            background: var(--gradient-gold);
+            color: var(--dark);
+        }
+
+        /* Why Premium Domains Section */
+        .why-section {
+            padding: 8rem 2rem;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .why-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 24px;
+            padding: 2.5rem;
+            text-align: center;
+            transition: all 0.4s ease;
+        }
+
+        .why-card:hover {
+            background: rgba(255, 255, 255, 0.06);
+            transform: translateY(-8px);
+            border-color: rgba(139, 92, 246, 0.3);
+        }
+
+        .why-icon {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+
+        .why-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .why-card p {
+            color: var(--gray-light);
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 8rem 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .cta-content h2 {
+            font-size: clamp(2.2rem, 4vw, 3.5rem);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            letter-spacing: -1px;
+        }
+
+        .cta-content p {
+            color: var(--gray-light);
+            font-size: 1.3rem;
+            margin-bottom: 3rem;
+            line-height: 1.8;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1.2rem 2.5rem;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.15rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: var(--gradient);
+            color: var(--white);
+            box-shadow: 0 15px 40px rgba(139, 92, 246, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 50px rgba(139, 92, 246, 0.5);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--white);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-4px);
+        }
+
+        /* Contact Info */
+        .contact-info {
+            margin-top: 4rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .contact-info h3 {
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--primary-light);
+        }
+
+        .contact-info p {
+            font-size: 1.2rem;
+            color: var(--gray-light);
+        }
+
+        .contact-info a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            padding: 4rem 2rem 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .footer-logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-text {
+            color: var(--gray);
+            font-size: 1rem;
+        }
+
+        /* Mobile Menu */
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 1.8rem;
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            html {
+                font-size: 17px;
+            }
+
+            .domains-grid {
+                grid-template-columns: 1fr;
+                max-width: 500px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            html {
+                font-size: 16px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .hero {
+                padding: 8rem 1.5rem 4rem;
+            }
+
+            .trust-badges {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .why-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 350px;
+                justify-content: center;
+            }
+        }
+
+        /* Scroll Animations */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s ease;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Accessibility - Focus States */
+        a:focus,
+        button:focus {
+            outline: 3px solid var(--primary-light);
+            outline-offset: 3px;
+        }
+
+        /* High Contrast Mode Support */
+        @media (prefers-contrast: high) {
+            .domain-card {
+                border-width: 3px;
+            }
+
+            .btn {
+                border: 2px solid currentColor;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="starfield">
+        <div class="stars"></div>
+        <div class="nebula"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🚀</span>
+                <a href="https://www.fruits.co/en/shop/ridethedomain">Available on Fruits.co (click this)</a>
+
+            </div>
+            <ul class="nav-links">
+                <li><a href="#domains">Domains</a></li>
+                <li><a href="#why">Why Us</a></li>
+                <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Open menu">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-star">✨</span>
+                Premium Domains Available Now
+            </div>
+            <h1>
+                Launch Your <span class="highlight">Business</span> With a <span class="gold">Premium Domain</span>
+            </h1>
+            <p class="hero-subtitle">
+                Secure a memorable, professional domain name that builds instant trust with your customers and sets you apart from the competition.
+            </p>
+            <div class="trust-badges">
+                <div class="trust-badge">
+                    <span class="trust-icon">🔒</span>
+                    <span>Secure Transfer</span>
+                </div>
+                <div class="trust-badge">
+                    <span class="trust-icon">⚡</span>
+                    <span>Instant Ownership</span>
+                </div>
+                <div class="trust-badge">
+                    <span class="trust-icon">🤝</span>
+                    <span>Full Support</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Domains Section -->
+    <section class="domains-section" id="domains">
+        <div class="section-header reveal">
+            <span class="section-tag">🌟 Available Now</span>
+            <h2>Premium Domains Ready for Your Success</h2>
+            <p>Each domain is carefully selected to help your business stand out. Easy to remember, professional, and ready to build trust with your customers.</p>
+        </div>
+
+        <div class="domains-grid">
+            <!-- Featured Domain -->
+            <div class="domain-card featured reveal">
+                <span class="featured-badge">⭐ Featured</span>
+                <div class="domain-icon">💎</div>
+                <h3 class="domain-name">estore<span class="domain-extension">.beauty</span></h3>
+                <p class="domain-tagline">The perfect domain for beauty e-commerce. Instantly memorable and highly brandable.</p>
+                <ul class="domain-benefits">
+                    <li><span class="benefit-check">✓</span> Perfect for beauty & cosmetics stores</li>
+                    <li><span class="benefit-check">✓</span> Short, memorable & professional</li>
+                    <li><span class="benefit-check">✓</span> High brand potential</li>
+                    <li><span class="benefit-check">✓</span> SEO-friendly extension</li>
+                </ul>
+                <a href="#contact" class="domain-cta">Inquire About This Domain</a>
+            </div>
+
+            <!-- AI Domains -->
+            <div class="domain-card reveal">
+                <div class="domain-icon">🤖</div>
+                <h3 class="domain-name">coolaifor<span class="domain-extension">.work</span></h3>
+                <p class="domain-tagline">Position yourself as the go-to source for AI tools in the workplace.</p>
+                <ul class="domain-benefits">
+                    <li><span class="benefit-check">✓</span> AI & productivity focused</li>
+                    <li><span class="benefit-check">✓</span> Clear, descriptive name</li>
+                    <li><span class="benefit-check">✓</span> Growing AI market</li>
+                    <li><span class="benefit-check">✓</span> Professional .work extension</li>
+                </ul>
+                <a href="#contact" class="domain-cta">Inquire About This Domain</a>
+            </div>
+
+            <div class="domain-card reveal">
+                <div class="domain-icon">🧠</div>
+                <h3 class="domain-name">coolai4<span class="domain-extension">.work</span></h3>
+                <p class="domain-tagline">Short, modern, and perfect for AI-focused business applications.</p>
+                <ul class="domain-benefits">
+                    <li><span class="benefit-check">✓</span> Compact & memorable</li>
+                    <li><span class="benefit-check">✓</span> Modern "4" styling</li>
+                    <li><span class="benefit-check">✓</span> AI industry ready</li>
+                    <li><span class="benefit-check">✓</span> Easy to type & share</li>
+                </ul>
+                <a href="#contact" class="domain-cta">Inquire About This Domain</a>
+            </div>
+
+            <div class="domain-card reveal">
+                <div class="domain-icon">🛠️</div>
+                <h3 class="domain-name">aitoolsfor<span class="domain-extension">.work</span></h3>
+                <p class="domain-tagline">The ultimate domain for curating and selling AI productivity tools.</p>
+                <ul class="domain-benefits">
+                    <li><span class="benefit-check">✓</span> Highly descriptive</li>
+                    <li><span class="benefit-check">✓</span> SEO keyword rich</li>
+                    <li><span class="benefit-check">✓</span> Clear value proposition</li>
+                    <li><span class="benefit-check">✓</span> B2B market appeal</li>
+                </ul>
+                <a href="#contact" class="domain-cta">Inquire About This Domain</a>
+            </div>
+
+            <div class="domain-card reveal">
+                <div class="domain-icon">⚙️</div>
+                <h3 class="domain-name">aitools4<span class="domain-extension">.work</span></h3>
+                <p class="domain-tagline">Sleek, modern alternative for AI tools marketplace or directory.</p>
+                <ul class="domain-benefits">
+                    <li><span class="benefit-check">✓</span> Trendy "4" format</li>
+                    <li><span class="benefit-check">✓</span> Tech-savvy appeal</li>
+                    <li><span class="benefit-check">✓</span> Versatile usage</li>
+                    <li><span class="benefit-check">✓</span> Strong brand potential</li>
+                </ul>
+                <a href="#contact" class="domain-cta">Inquire About This Domain</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Premium Domains Section -->
+    <section class="why-section" id="why">
+        <div class="section-header reveal">
+            <span class="section-tag">💡 Why It Matters</span>
+            <h2>A Great Domain = Business Success</h2>
+            <p>Your domain name is often the first impression customers have of your business. Make it count.</p>
+        </div>
+
+        <div class="why-grid">
+            <div class="why-card reveal">
+                <span class="why-icon">🎯</span>
+                <h3>Instant Credibility</h3>
+                <p>A professional domain builds immediate trust. Customers feel confident doing business with you from the very first click.</p>
+            </div>
+
+            <div class="why-card reveal">
+                <span class="why-icon">🧲</span>
+                <h3>Easy to Remember</h3>
+                <p>Short, clear domain names stick in people's minds. They'll find you again and recommend you to others.</p>
+            </div>
+
+            <div class="why-card reveal">
+                <span class="why-icon">📈</span>
+                <h3>Better Search Rankings</h3>
+                <p>Relevant domain names can improve your visibility in search engines, bringing more customers to your door.</p>
+            </div>
+
+            <div class="why-card reveal">
+                <span class="why-icon">💰</span>
+                <h3>Long-Term Investment</h3>
+                <p>Premium domains appreciate in value. You're not just buying a name—you're investing in your business future.</p>
+            </div>
+
+            <div class="why-card reveal">
+                <span class="why-icon">🏆</span>
+                <h3>Stand Out From Competition</h3>
+                <p>While competitors use forgettable names, you'll have a domain that makes a lasting impression.</p>
+            </div>
+
+            <div class="why-card reveal">
+                <span class="why-icon">🌍</span>
+                <h3>Global Reach</h3>
+                <p>A great domain works worldwide. Expand your business without geographical limitations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="cta-content reveal">
+            <h2>Ready to Secure Your Perfect Domain?</h2>
+            <p>Don't let someone else grab your ideal domain name. Contact us today to discuss pricing and transfer options. We're here to help you succeed!</p>
+            
+            <div class="cta-buttons">
+                <a href="mailto:jon@wakatemia.fi" class="btn btn-primary">
+                    <span>📧</span>
+                    Email Us Now
+                </a>
+                 
+            </div>
+
+            <div class="contact-info">
+                <h3>Questions? We're Here to Help!</h3>
+                <p>Our friendly team is ready to assist you with domain selection, pricing, and secure transfer. <br>
+                Email: <a href="mailto:domains@example.com">jon@wakatemia.fi</a>  </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">🚀 RideTheDomain by Wakatemia</div>
+            <p class="footer-text">© 2024 RideTheDomain. Premium domains for ambitious businesses.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll reveal animation
+        const reveals = document.querySelectorAll('.reveal');
+        
+        const revealOnScroll = () => {
+            reveals.forEach(element => {
+                const windowHeight = window.innerHeight;
+                const elementTop = element.getBoundingClientRect().top;
+                const revealPoint = 120;
+
+                if (elementTop < windowHeight - revealPoint) {
+                    element.classList.add('active');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', revealOnScroll);
+        revealOnScroll(); // Initial check
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add floating animation to domain cards on hover
+        document.querySelectorAll('.domain-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.animation = 'float 3s ease-in-out infinite';
+            });
+            card.addEventListener('mouseleave', function() {
+                this.style.animation = 'none';
+            });
+        });
+
+        // Create additional floating animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes float {
+                0%, 100% { transform: translateY(-12px); }
+                50% { transform: translateY(-18px); }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
